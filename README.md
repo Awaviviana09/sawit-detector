@@ -24,6 +24,7 @@
 ## 📝 Deskripsi Proyek
 
 Sistem ini dirancang untuk mendeteksi **tingkat kematangan Tandan Buah Segar (TBS) kelapa sawit** secara otomatis menggunakan model **YOLOv8**. Aplikasi berbasis **web Streamlit** ini mampu mengklasifikasikan kematangan buah berdasarkan fitur visual warna kulit buah dengan akurasi tinggi, sehingga mendukung penerapan AI dalam otomasi proses penilaian kualitas buah kelapa sawit.
+
 ---
 
 ## ⚙️ Fitur Utama
