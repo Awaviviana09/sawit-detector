@@ -25,6 +25,14 @@
 
 Sistem ini dirancang untuk mendeteksi **tingkat kematangan Tandan Buah Segar (TBS) kelapa sawit** secara otomatis menggunakan model **YOLOv8**. Aplikasi berbasis **web Streamlit** ini mampu mengklasifikasikan kematangan buah berdasarkan fitur visual warna kulit buah dengan akurasi tinggi, sehingga mendukung penerapan AI dalam otomasi proses penilaian kualitas buah kelapa sawit.
 
+🔗 **Akses Sistem Web:**  
+👉 [Sawit Detector Web App](https://sawit-detector.streamlit.app/)
+
+
+📄 **Publikasi/Jurnal Terkait:**  
+> Genoveva, Z. (2025). *Penerapan YOLOv8 untuk Deteksi Otomatis Tingkat Kematangan Tandan Buah Segar Kelapa Sawit Berbasis Web.* Universitas Gunadarma.  
+> [Baca Jurnal Lengkap (PDF)](https://github.com/user-attachments/files/22792759/Jurnal.pdf)
+
 ---
 
 ## ⚙️ Fitur Utama
@@ -167,8 +175,7 @@ Berikut visualisasi hasil evaluasi pada model YOLOv8:
 ---
 
 ### 6️⃣ Deployment
-Model kemudian diintegrasikan ke dalam aplikasi **Streamlit berbasis web**, yang memungkinkan pengguna melakukan deteksi langsung terhadap gambar dan video.  
-Aplikasi dapat dijalankan tanpa instalasi tambahan, menjadikannya solusi **praktis, efisien, dan mudah digunakan** di lingkungan perkebunan.
+Model kemudian diintegrasikan ke dalam aplikasi **Streamlit berbasis web**, yang memungkinkan pengguna melakukan deteksi langsung terhadap gambar dan video. Aplikasi dapat dijalankan tanpa instalasi tambahan, menjadikannya solusi **praktis, efisien, dan mudah digunakan** di lingkungan perkebunan.
 
 ---
 
@@ -249,9 +256,9 @@ Aplikasi dapat dijalankan tanpa instalasi tambahan, menjadikannya solusi **prakt
 
 ## 🧠 Kesimpulan
 
-The automatic detection system for oil palm Fresh Fruit Bunch (FFB) ripeness based on YOLOv8 was successfully developed and implemented through a Streamlit web platform. The model was trained using 6,592 annotated images from Roboflow and achieved strong performance with a mAP@0.50 of 98%, precision of 94.5%, and recall of 94.7%.
-The system performs an automatic grading process of FFB ripeness based on visual color features, providing fast, consistent, and accurate classification results. Its implementation enhances harvest efficiency, minimizes human subjectivity, and contributes to improved productivity in the palm oil industry.
-Although the model performs well, further optimization of hyperparameter tuning and data augmentation techniques is recommended to enhance adaptability under real field conditions and various environmental factors.
+The automatic detection system for oil palm Fresh Fruit Bunch (FFB) ripeness based on YOLOv8 was successfully developed and implemented through a Streamlit web platform. The model was trained using 6,592 annotated images from Roboflow and achieved strong performance with a mAP@0.50 of 98%, precision of 94.5%, and recall of 94.7%. 
+
+The system performs an automatic grading process of FFB ripeness based on visual color features, providing fast, consistent, and accurate classification results. Its implementation enhances harvest efficiency, minimizes human subjectivity, and contributes to improved productivity in the palm oil industry. Although the model performs well, further optimization of hyperparameter tuning and data augmentation techniques is recommended to enhance adaptability under real field conditions and various environmental factors.
 
 ---
 
