@@ -23,8 +23,7 @@
 ---
 ## 📝 Deskripsi Proyek
 
-Sistem ini dirancang untuk mendeteksi **tingkat kematangan Tandan Buah Segar (TBS) kelapa sawit** secara otomatis menggunakan model **YOLOv8**. Aplikasi berbasis **web Streamlit** ini mampu mengklasifikasikan kematangan buah berdasarkan fitur visual warna kulit buah dengan akurasi tinggi, sehingga membantu petani dan pengelola perkebunan dalam menentukan waktu panen yang optimal.
-
+Sistem ini dirancang untuk mendeteksi **tingkat kematangan Tandan Buah Segar (TBS) kelapa sawit** secara otomatis menggunakan model **YOLOv8**. Aplikasi berbasis **web Streamlit** ini mampu mengklasifikasikan kematangan buah berdasarkan fitur visual warna kulit buah dengan akurasi tinggi, sehingga mendukung penerapan AI dalam otomasi proses penilaian kualitas buah kelapa sawit.
 ---
 
 ## ⚙️ Fitur Utama
@@ -32,7 +31,7 @@ Sistem ini dirancang untuk mendeteksi **tingkat kematangan Tandan Buah Segar (TB
 -  **Deteksi Otomatis** — Menggunakan YOLOv8 dengan pendekatan anchor-free untuk hasil yang lebih akurat dan cepat.  
 -  **Model Cerdas** — Dilatih dengan 6.592 citra TBS dari platform Roboflow, mencakup 4 tingkat kematangan.  
 -  **Aplikasi Web Interaktif** — Dibangun menggunakan **Streamlit**, dapat melakukan deteksi langsung dari gambar maupun video.  
--  **Visualisasi Hasil** — Menampilkan bounding box, label tingkat kematangan, dan confidence score secara real-time.   
+-  **Visualisasi Hasil** — Menampilkan bounding box, label tingkat kematangan, dan confidence score.   
 
 ---
 
@@ -78,8 +77,8 @@ Analisis dilakukan untuk memahami distribusi data, kondisi pencahayaan, dan pote
 
 | Kategori | Deskripsi |
 |-----------|------------|
-| 🍈 Mentah | Buah berwarna hijau tua tanpa indikasi kemerahan. |
-| 🍊 Setengah Matang | Warna kulit mulai berubah ke oranye kemerahan. |
+| 🍈 Mentah | Buah berwarna hitam keunguan tanpa indikasi kemerahan. |
+| 🍊 Setengah Matang | Warna kulit mulai berubah ke hitam kemerahan. |
 | 🍎 Matang | Warna merah-oranye dominan dan minyak mulai keluar. |
 | 🍂 Lewat Matang | Buah gelap dan banyak yang lepas dari tandan. |
 
@@ -135,7 +134,6 @@ Berikut visualisasi hasil evaluasi pada model YOLOv8:
 | *Menunjukkan distribusi antara prediksi benar (True Positive) dan salah (False Positive/False Negative) untuk tiap kelas kematangan.* |
 
 ---
-<img width="542" height="319" alt="image" src="" />
 
 | **Gambar 2 — Precision–Recall Curve** |
 |:--------------------------------------:|
